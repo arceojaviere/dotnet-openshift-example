@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/nottrue/Projects/Tests/Dotnet/Dotnet5Linux/contossoPizza/contossoPizza.csproj": {}
+    "/home/nottrue/Projects/Tests/Dotnet/Dotnet5Linux/git/dotnet-openshift-example/contossoPizza.csproj": {}
   },
   "projects": {
-    "/home/nottrue/Projects/Tests/Dotnet/Dotnet5Linux/contossoPizza/contossoPizza.csproj": {
+    "/home/nottrue/Projects/Tests/Dotnet/Dotnet5Linux/git/dotnet-openshift-example/contossoPizza.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nottrue/Projects/Tests/Dotnet/Dotnet5Linux/contossoPizza/contossoPizza.csproj",
+        "projectUniqueName": "/home/nottrue/Projects/Tests/Dotnet/Dotnet5Linux/git/dotnet-openshift-example/contossoPizza.csproj",
         "projectName": "contossoPizza",
-        "projectPath": "/home/nottrue/Projects/Tests/Dotnet/Dotnet5Linux/contossoPizza/contossoPizza.csproj",
+        "projectPath": "/home/nottrue/Projects/Tests/Dotnet/Dotnet5Linux/git/dotnet-openshift-example/contossoPizza.csproj",
         "packagesPath": "/home/nottrue/.nuget/packages/",
-        "outputPath": "/home/nottrue/Projects/Tests/Dotnet/Dotnet5Linux/contossoPizza/obj/",
+        "outputPath": "/home/nottrue/Projects/Tests/Dotnet/Dotnet5Linux/git/dotnet-openshift-example/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/nottrue/.nuget/NuGet/NuGet.Config"
@@ -53,16 +53,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
-              "version": "[5.0.13, 5.0.13]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
-              "version": "[5.0.13, 5.0.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -72,11 +62,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "/opt/dotnet/dotnet5/sdk/5.0.404/RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "linux-x64": {
-          "#import": []
         }
       }
     }

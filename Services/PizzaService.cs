@@ -32,7 +32,7 @@ namespace contossoPizza.Services{
         public static void Add(Pizza pizza)
         {
             int nextId = Pizzas.Count;
-            pizza.Id = nextId++;
+            pizza.Id = ++nextId;
             Pizzas.Add(pizza);
         }
 
