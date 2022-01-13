@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "q/mkBYB67fzad5mptNTnY/cPahMfoksIfXMF8CjHTqT3Wm/RZUnzOprBcouGM80vYwCUuXN/38M4/tus3ePYXg==",
+  "success": true,
+  "projectFilePath": "/home/nottrue/Projects/Tests/Dotnet/Dotnet5Linux/contossoPizza/contossoPizza.csproj",
+  "expectedPackageFiles": [
+    "/home/nottrue/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/nottrue/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/nottrue/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/home/nottrue/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/home/nottrue/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/home/nottrue/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "/home/nottrue/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/5.0.13/microsoft.netcore.app.runtime.linux-x64.5.0.13.nupkg.sha512",
+    "/home/nottrue/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/5.0.13/microsoft.aspnetcore.app.runtime.linux-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
