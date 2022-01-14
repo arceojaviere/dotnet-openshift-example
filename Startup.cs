@@ -11,6 +11,11 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using MySql.Data.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
+
+using contossoPizza.Database;
 
 namespace contossoPizza
 {
@@ -27,6 +32,8 @@ namespace contossoPizza
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddDbContext<PizzaDatabaseContex>(options =>
+                options.UseMySQL(Configuration.GetConnectionString("PizzaConnection")));
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
